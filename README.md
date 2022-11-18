@@ -10,19 +10,19 @@ Simulation can be done using 1D and 3D synthetics:
 
 
 ### Requirements
-- Obspy
-- Pyrocko (optional)
-- Matplotlib
-- Numpy
+- Obspy         
+- Pyrocko (optional)     
+- Matplotlib        
+- Numpy         
 
 
 ### AmPHIB depends on several external python codes:
-- FMC https://github.com/Jose-Alvarez/FMC
-  FMC.py was updated to return the polygone information of a coordinate.
-- UAF Geophysics Tools https://github.com/uafgeotools/mtuq
-  type2015.py is used without additional changes.
-- MoPaD https://github.com/geophysics/MoPaD
-  mopad.py was updated from py2 to py3.
-- usgs/strec https://github.com/usgs/strec/tree/master/strec
-  kagan.py is used without additional changes
+- FMC https://github.com/Jose-Alvarez/FMC                
+  FMC.py was updated to return the polygone information of a coordinate.       
+- UAF Geophysics Tools https://github.com/uafgeotools/mtuq               
+  type2015.py is used without additional changes.             
+- MoPaD https://github.com/geophysics/MoPaD            
+  mopad.py was updated from py2 to py3.             
+- usgs/strec https://github.com/usgs/strec/tree/master/strec           
+  kagan.py is used without additional changes             
 
