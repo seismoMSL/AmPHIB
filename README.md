@@ -10,10 +10,10 @@ Simulation can be done using 1D and 3D synthetics:
 
 
 ### Requirements
-- Obspy         
-- Pyrocko (optional)     
-- Matplotlib        
-- Numpy         
+- Obspy 1.2.2         
+- Pyrocko 2019.06.06 (optional)     
+- Matplotlib 3.2.2       
+- Numpy 1.18.5        
 
 
 ### AmPHIB depends on several external python codes:
