@@ -1,0 +1,45 @@
+####
+# These are the final VOiLA broadband OBS horizontal component orientations.
+# These were determined by using Rayleigh-wave polarisation using the Doran &
+# Laske (2017) method (https://igppweb.ucsd.edu/~adoran/DLOPy.html / doi:10.1785/0120160165).
+# These orientations have also been confirmed using P-wave polarisation on
+# horizontal components and anaysis of P-wave polarity similarity on the vertical and radial components.
+# In the following list the columns are:
+# Station_code Nominal_north_component_azimuth(degCW) Error(deg), NumMeasurements
+# Note:
+# DEPAS instruments use the “left-hand rule” so BH2 is 90 degrees clockwise of BH1, and BH1 is the nominally north component. Therefore, the azimuth is # given for *BH1*
+# SIO instruments use the “right-hand rule” so BH2 is 90 degrees anti-clockwise of BH1, and BH2 is the nominally north component. Therefore, the azimuth below is given for *BH2*
+# S. Hicks, 08/05/18
+####
+DP01 63.68 4.58 160 41
+DP03 205.58 4.02 172 41
+DP04 33.97 5.03 134 40
+DP05 19.89 3.84 184 44
+DP06 33.47 5.01 87 24
+DP08 21.08 7.91 65 17
+DP09 267.42 7.27 60 16
+DP10 73.63 5.15 84 28
+DP12 340.31 7.02 99 26
+DP14 297.21 4.23 135 35
+DP16 306.34 3.85 225 52
+DP17 134.88 5.16 146 40
+DP18 245.22 4.70 156 45
+DP19 314.10 4.58 167 33
+DP21 49.79 4.64 155 34
+DP22 136.05 3.45 221 48
+DP24 77.32 5.65 79 17
+DP25 30.23 4.85 96 30
+DP27 228.60 3.62 185 45
+DP28 22.35 3.73 206 47
+DP30 265.47 5.21 116 31
+DP31 110.72 5.79 90 22
+DP32 222.32 11.46 40 15
+DP34 195.98 5.32 90 30
+SI02 100.63 3.69 157 44
+SI07 352.04 3.66 214 48
+SI11 292.72 4.92 133 35
+SI13 43.15 9.14 69 20
+SI15 155.43 2.55 210 49
+SI23 80.41 3.85 139 37
+SI26 38.94 3.88 169 43
+SI33 101.97 11.70 40 16
