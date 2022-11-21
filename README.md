@@ -22,7 +22,7 @@ Run JSON-Creator to renew input_ev123_Example.json for your local environment.
 - Numpy 1.18.5        
 
 
-### AmPHIB depends on several external python codes:
+### AmPHIB uses selected functions of four external python codes:
 - FMC https://github.com/Jose-Alvarez/FMC                
   FMC.py was updated to return the polygone information of a coordinate.       
 - UAF Geophysics Tools https://github.com/uafgeotools/mtuq               
