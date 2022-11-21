@@ -1,0 +1,1959 @@
+{
+    "general": {
+        "synt_source": "CAP",
+        "obs_trace_set": "Set1"
+    },
+    "path": {
+        "Event_file": "/home/mlind/Data/GitHub/AmPHIB/TextFiles/Example/Event_List",
+        "orientation_file": "/home/mlind/Data/GitHub/AmPHIB/TextFiles/Example/VOILA_OBS_ORIENTATIONS",
+        "Station_file": "/home/mlind/Data/GitHub/AmPHIB/TextFiles/Example/STATIONS_global",
+        "observation_data_path": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Observations/ev123/",
+        "CAP_synthetic_data_path": {
+            "160.0": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/"
+        },
+        "CAP_subfolder_structure": [
+            "90SS",
+            "90DS",
+            "45DS",
+            "ISO"
+        ],
+        "CAP_pattern": {
+            "90SS": [
+                "A",
+                "B"
+            ],
+            "90DS": [
+                "A",
+                "C"
+            ],
+            "45DS": [
+                "B"
+            ],
+            "ISO": [
+                "B"
+            ]
+        },
+        "fomosto_database": null,
+        "data_set_identifier": null,
+        "DSI_dict": null,
+        "3D_synthetic_data_path": null,
+        "recommendation_dict_3D": null,
+        "cnv_file": null,
+        "Trace_selection_file": "/home/mlind/Data/GitHub/AmPHIB/TextFiles/Example/Trace_Selection",
+        "Signal_window_file": "/home/mlind/Data/GitHub/AmPHIB/TextFiles/Example/Signal_window_Selection",
+        "CAP_file_path": {
+            "F1_X0": {
+                "XX_DP18": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHE"
+                        }
+                    }
+                },
+                "XX_DP04": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHE"
+                        }
+                    }
+                },
+                "XX_DP14": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHE"
+                        }
+                    }
+                },
+                "XX_DP21": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHE"
+                        }
+                    }
+                },
+                "XX_DP22": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHE"
+                        }
+                    }
+                }
+            },
+            "F1_X4": {
+                "XX_DP18": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-142..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-142..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-142..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-142..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-142..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-142..BHE"
+                        }
+                    }
+                },
+                "XX_DP04": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-117..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-117..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-117..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-117..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-117..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-117..BHE"
+                        }
+                    }
+                },
+                "XX_DP14": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-213..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-213..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-213..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-213..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-213..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-213..BHE"
+                        }
+                    }
+                },
+                "XX_DP21": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-119..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-119..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-119..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-119..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-119..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-119..BHE"
+                        }
+                    }
+                },
+                "XX_DP22": {
+                    "90SS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHZ",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHN",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.A-104..BHE",
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90SS/XX.B-104..BHE"
+                        }
+                    },
+                    "90DS": {
+                        "Z": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHZ",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHZ"
+                        },
+                        "N": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHN",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHN"
+                        },
+                        "E": {
+                            "A": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.A-104..BHE",
+                            "C": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/90DS/XX.C-104..BHE"
+                        }
+                    },
+                    "45DS": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/45DS/XX.B-104..BHE"
+                        }
+                    },
+                    "ISO": {
+                        "Z": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHZ"
+                        },
+                        "N": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHN"
+                        },
+                        "E": {
+                            "B": "/home/mlind/Data/GitHub/AmPHIB/Data/Example/Synthetics/Fund_Events_160.0/ISO/XX.B-104..BHE"
+                        }
+                    }
+                }
+            }
+        },
+        "3D_file_path": null
+    },
+    "source": {
+        "event_list": {
+            "ev123": [
+                "2016-10-18T22:08:13.750000Z",
+                [
+                    15.298,
+                    -61.352,
+                    160
+                ],
+                5.83
+            ]
+        },
+        "region": "Example",
+        "event_id": "ev123",
+        "event_depth": 160,
+        "F1_loc": [
+            "2016-10-18T22:08:13.750000Z",
+            [
+                15.298,
+                -61.352,
+                160
+            ],
+            5.83
+        ],
+        "simulate_doublet": false,
+        "doublet_event_id": "ev123",
+        "doublet_event_depth": 160,
+        "F2_loc": [
+            "2016-10-18T22:08:13.750000Z",
+            [
+                15.298,
+                -61.352,
+                160
+            ],
+            5.83
+        ],
+        "solve_for_misrot": true,
+        "daz": {
+            "DP01": [
+                63.68,
+                4.58
+            ],
+            "DP03": [
+                205.58,
+                4.02
+            ],
+            "DP04": [
+                33.97,
+                5.03
+            ],
+            "DP05": [
+                19.89,
+                3.84
+            ],
+            "DP06": [
+                33.47,
+                5.01
+            ],
+            "DP08": [
+                21.08,
+                7.91
+            ],
+            "DP09": [
+                267.42,
+                7.27
+            ],
+            "DP10": [
+                73.63,
+                5.15
+            ],
+            "DP12": [
+                340.31,
+                7.02
+            ],
+            "DP14": [
+                297.21,
+                4.23
+            ],
+            "DP16": [
+                306.34,
+                3.85
+            ],
+            "DP17": [
+                134.88,
+                5.16
+            ],
+            "DP18": [
+                245.22,
+                4.7
+            ],
+            "DP19": [
+                314.1,
+                4.58
+            ],
+            "DP21": [
+                49.79,
+                4.64
+            ],
+            "DP22": [
+                136.05,
+                3.45
+            ],
+            "DP24": [
+                77.32,
+                5.65
+            ],
+            "DP25": [
+                30.23,
+                4.85
+            ],
+            "DP27": [
+                228.6,
+                3.62
+            ],
+            "DP28": [
+                22.35,
+                3.73
+            ],
+            "DP30": [
+                265.47,
+                5.21
+            ],
+            "DP31": [
+                110.72,
+                5.79
+            ],
+            "DP32": [
+                222.32,
+                11.46
+            ],
+            "DP34": [
+                195.98,
+                5.32
+            ],
+            "SI02": [
+                100.63,
+                3.69
+            ],
+            "SI07": [
+                352.04,
+                3.66
+            ],
+            "SI11": [
+                292.72,
+                4.92
+            ],
+            "SI13": [
+                43.15,
+                9.14
+            ],
+            "SI15": [
+                155.43,
+                2.55
+            ],
+            "SI23": [
+                80.41,
+                3.85
+            ],
+            "SI26": [
+                38.94,
+                3.88
+            ],
+            "SI33": [
+                101.97,
+                11.7
+            ]
+        },
+        "solve_for_delay": false,
+        "t_del": 3.0,
+        "solve_for_misloc": false,
+        "dx": [
+            1,
+            1
+        ],
+        "misloc_fault_id": "F1",
+        "pyrocko_store_id": [
+            "ak135_2000km_1Hz"
+        ],
+        "F1_set_id_3d": "14.95_-61.45_170.0",
+        "F2_set_id_3d": "14.95_-61.45_170.0",
+        "phase_onset": {
+            "src_cluster": {
+                "weight": [
+                    1000,
+                    1
+                ],
+                "radius": 1.0
+            },
+            "width": {
+                "P": [
+                    0.5,
+                    4.5
+                ],
+                "S": [
+                    0.5,
+                    4.5
+                ]
+            },
+            "obs": null,
+            "table_id": {
+                "P": "any_P",
+                "S": "any_S"
+            }
+        },
+        "SRC_dict": {
+            "F1_X0": [
+                15.298,
+                -61.352,
+                160
+            ],
+            "F1_X4": [
+                15.298,
+                -61.352,
+                160
+            ]
+        },
+        "ref_time": {
+            "F1_X0": "2016-10-18T22:08:13.750000Z",
+            "F2_X0": "2016-10-18T22:08:13.750000Z"
+        },
+        "ref_mag": [
+            5.0,
+            true,
+            5.83,
+            "P2P"
+        ]
+    },
+    "network": {
+        "distance_range": [
+            0,
+            350
+        ],
+        "stat_global": {
+            "XX_DP19": [
+                15.0048,
+                -62.2575,
+                2.759
+            ],
+            "XX_DP18": [
+                14.636,
+                -62.4685,
+                2.847
+            ],
+            "XX_DP17": [
+                14.7506,
+                -62.1262,
+                2.863
+            ],
+            "XX_DP16": [
+                14.7567,
+                -61.6868,
+                2.757
+            ],
+            "XX_DP05": [
+                14.7755,
+                -61.5094,
+                2.712
+            ],
+            "XX_SI15": [
+                14.2189,
+                -62.0015,
+                2.946
+            ],
+            "XX_DP04": [
+                14.2495,
+                -61.3503,
+                2.892
+            ],
+            "XX_DP03": [
+                13.6112,
+                -61.5231,
+                2.876
+            ],
+            "XX_DP14": [
+                13.5178,
+                -62.075,
+                2.952
+            ],
+            "XX_SI02": [
+                12.7701,
+                -61.96,
+                2.978
+            ],
+            "XX_DP01": [
+                12.4399,
+                -62.2695,
+                2.953
+            ],
+            "XX_SI13": [
+                11.9998,
+                -61.2685,
+                1.328
+            ],
+            "XX_DP09": [
+                14.9595,
+                -60.6125,
+                1.41
+            ],
+            "XX_DP06": [
+                15.3295,
+                -60.8098,
+                1.535
+            ],
+            "XX_DP34": [
+                16.8749,
+                -61.4267,
+                1.118
+            ],
+            "XX_DP24": [
+                16.7489,
+                -61.9876,
+                0.812
+            ],
+            "XX_SI23": [
+                16.2498,
+                -62.0749,
+                1.401
+            ],
+            "XX_DP25": [
+                16.4866,
+                -62.2761,
+                1.113
+            ],
+            "XX_SI26": [
+                16.3512,
+                -62.419,
+                1.076
+            ],
+            "XX_DP30": [
+                16.8365,
+                -62.9273,
+                1.201
+            ],
+            "XX_DP21": [
+                15.5554,
+                -62.4182,
+                2.036
+            ],
+            "XX_DP22": [
+                15.8518,
+                -62.1257,
+                1.798
+            ],
+            "XX_DP27": [
+                16.1848,
+                -62.5888,
+                1.836
+            ],
+            "XX_DP28": [
+                16.0011,
+                -62.7516,
+                1.804
+            ],
+            "XX_DP12": [
+                12.5316,
+                -60.849,
+                1.936
+            ],
+            "XX_SI11": [
+                13.1513,
+                -60.4908,
+                2.32
+            ],
+            "XX_DP10": [
+                14.3717,
+                -60.4908,
+                2.044
+            ],
+            "XX_DP08": [
+                15.0581,
+                -60.3092,
+                3.112
+            ],
+            "XX_SI07": [
+                15.1401,
+                -60.0402,
+                4.685
+            ],
+            "XX_SI33": [
+                17.775,
+                -61.0867,
+                5.054
+            ],
+            "XX_DP32": [
+                17.5751,
+                -61.2696,
+                4.02
+            ],
+            "XX_DP31": [
+                17.42,
+                -61.45,
+                3.827
+            ]
+        },
+        "netw_id": {
+            "XX": [
+                "DP19",
+                "DP18",
+                "DP17",
+                "DP16",
+                "DP05",
+                "SI15",
+                "DP04",
+                "DP03",
+                "DP14",
+                "SI02",
+                "DP01",
+                "SI13",
+                "DP09",
+                "DP06",
+                "DP34",
+                "DP24",
+                "SI23",
+                "DP25",
+                "SI26",
+                "DP30",
+                "DP21",
+                "DP22",
+                "DP27",
+                "DP28",
+                "DP12",
+                "SI11",
+                "DP10",
+                "DP08",
+                "SI07",
+                "SI33",
+                "DP32",
+                "DP31"
+            ]
+        },
+        "cap_fbd_id": "BH",
+        "CAP_t_add": 60.0,
+        "profil": {
+            "offset": 0.0,
+            "profil_lenght": 350,
+            "station_sampling": 1.0
+        },
+        "CAP_STF": {
+            "F1": 0.0,
+            "F2": 0.0
+        },
+        "store_id_subnetwork": {
+            "ak135_2000km_1Hz": [
+                "XX_DP19",
+                "XX_DP18",
+                "XX_DP17",
+                "XX_DP16",
+                "XX_DP05",
+                "XX_SI15",
+                "XX_DP04",
+                "XX_DP03",
+                "XX_DP14",
+                "XX_SI02",
+                "XX_DP01",
+                "XX_SI13",
+                "XX_DP09",
+                "XX_DP06",
+                "XX_DP34",
+                "XX_DP24",
+                "XX_SI23",
+                "XX_DP25",
+                "XX_SI26",
+                "XX_DP30",
+                "XX_DP21",
+                "XX_DP22",
+                "XX_DP27",
+                "XX_DP28",
+                "XX_DP12",
+                "XX_SI11",
+                "XX_DP10",
+                "XX_DP08",
+                "XX_SI07",
+                "XX_SI33",
+                "XX_DP32",
+                "XX_DP31"
+            ]
+        },
+        "pyrocko_fbd_id": "HH",
+        "trace_length": 900.0,
+        "Pyrocko_t_add": 180.0,
+        "Pyrocko_STF": {
+            "F1": 0.0,
+            "F2": 0.0
+        },
+        "3D_fbd_id": "BH",
+        "3D_t_add": 180.0,
+        "3D_trace_length": 900.0,
+        "3D_STF": {
+            "F1": 0.0,
+            "F2": 0.0
+        },
+        "t_wind_synt": [
+            0,
+            260
+        ],
+        "rm_stations": [],
+        "trace_selection": {
+            "XX_DP21": [
+                "Z",
+                "R",
+                "T"
+            ],
+            "XX_DP04": [
+                "Z",
+                "R",
+                "T"
+            ],
+            "XX_DP18": [
+                "Z",
+                "R",
+                "T"
+            ],
+            "XX_DP22": [
+                "Z",
+                "R",
+                "T"
+            ],
+            "XX_DP14": [
+                "Z",
+                "R",
+                "T"
+            ]
+        },
+        "signal_window": {
+            "ev123": {
+                "XX_DP04": [
+                    "2016-10-18T22:08:34.010300Z",
+                    "2016-10-18T22:11:29.010300Z"
+                ],
+                "XX_DP14": [
+                    "2016-10-18T22:08:50.333400Z",
+                    "2016-10-18T22:11:45.333400Z"
+                ],
+                "XX_DP18": [
+                    "2016-10-18T22:08:28.237100Z",
+                    "2016-10-18T22:11:23.237100Z"
+                ],
+                "XX_DP21": [
+                    "2016-10-18T22:08:32.190300Z",
+                    "2016-10-18T22:11:27.190300Z"
+                ],
+                "XX_DP22": [
+                    "2016-10-18T22:08:25.721600Z",
+                    "2016-10-18T22:11:20.721600Z"
+                ],
+                "XX_DP01": [
+                    "2016-10-18T22:09:28.519600Z",
+                    "2016-10-18T22:12:23.519600Z"
+                ],
+                "XX_DP03": [
+                    "2016-10-18T22:08:41.173800Z",
+                    "2016-10-18T22:11:36.173800Z"
+                ],
+                "XX_DP05": [
+                    "2016-10-18T22:08:23.503100Z",
+                    "2016-10-18T22:11:18.503100Z"
+                ],
+                "XX_DP06": [
+                    "2016-10-18T22:08:30.438700Z",
+                    "2016-10-18T22:11:25.438700Z"
+                ],
+                "XX_DP08": [
+                    "2016-10-18T22:08:31.338200Z",
+                    "2016-10-18T22:11:26.338200Z"
+                ],
+                "XX_DP09": [
+                    "2016-10-18T22:08:30.548300Z",
+                    "2016-10-18T22:11:25.548300Z"
+                ],
+                "XX_DP10": [
+                    "2016-10-18T22:08:35.583000Z",
+                    "2016-10-18T22:11:30.583000Z"
+                ],
+                "XX_DP12": [
+                    "2016-10-18T22:09:19.710200Z",
+                    "2016-10-18T22:12:14.710200Z"
+                ],
+                "XX_DP16": [
+                    "2016-10-18T22:08:15.245400Z",
+                    "2016-10-18T22:11:10.245400Z"
+                ],
+                "XX_DP17": [
+                    "2016-10-18T22:08:14.866800Z",
+                    "2016-10-18T22:11:09.866800Z"
+                ],
+                "XX_DP19": [
+                    "2016-10-18T22:08:32.731900Z",
+                    "2016-10-18T22:11:27.731900Z"
+                ],
+                "XX_DP24": [
+                    "2016-10-18T22:08:43.700700Z",
+                    "2016-10-18T22:11:38.700700Z"
+                ],
+                "XX_DP25": [
+                    "2016-10-18T22:16:15.606900Z",
+                    "2016-10-18T22:16:33.750000Z"
+                ],
+                "XX_DP27": [
+                    "2016-10-18T22:08:35.801000Z",
+                    "2016-10-18T22:11:30.801000Z"
+                ],
+                "XX_DP28": [
+                    "2016-10-18T22:08:36.571900Z",
+                    "2016-10-18T22:11:31.571900Z"
+                ],
+                "XX_DP30": [
+                    "2016-10-18T22:08:56.705000Z",
+                    "2016-10-18T22:11:51.705000Z"
+                ],
+                "XX_DP31": [
+                    "2016-10-18T22:08:49.881900Z",
+                    "2016-10-18T22:11:44.881900Z"
+                ],
+                "XX_DP32": [
+                    "2016-10-18T22:08:39.773000Z",
+                    "2016-10-18T22:11:34.773000Z"
+                ],
+                "XX_DP34": [
+                    "2016-10-18T22:08:42.846200Z",
+                    "2016-10-18T22:11:37.846200Z"
+                ],
+                "XX_SI02": [
+                    "2016-10-18T22:09:04.983209Z",
+                    "2016-10-18T22:11:59.983209Z"
+                ],
+                "XX_SI07": [
+                    "2016-10-18T22:08:31.176681Z",
+                    "2016-10-18T22:11:26.176681Z"
+                ],
+                "XX_SI11": [
+                    "2016-10-18T22:09:02.183648Z",
+                    "2016-10-18T22:11:57.183648Z"
+                ],
+                "XX_SI13": [
+                    "2016-10-18T22:12:36.783939Z",
+                    "2016-10-18T22:15:31.783939Z"
+                ],
+                "XX_SI15": [
+                    "2016-10-18T22:08:34.722341Z",
+                    "2016-10-18T22:11:29.722341Z"
+                ],
+                "XX_SI23": [
+                    "2016-10-18T22:08:33.268482Z",
+                    "2016-10-18T22:11:28.268482Z"
+                ],
+                "XX_SI26": [
+                    "2016-10-18T22:08:36.294562Z",
+                    "2016-10-18T22:11:31.294562Z"
+                ],
+                "XX_SI33": [
+                    "2016-10-18T22:08:59.749805Z",
+                    "2016-10-18T22:11:54.749805Z"
+                ]
+            }
+        },
+        "STAT_dict": {
+            "F1_X0": {
+                "XX_DP19": [
+                    15.0048,
+                    -62.2575,
+                    2.759,
+                    102583.13503975215,
+                    251.68203938276304,
+                    71.44536297288063
+                ],
+                "XX_DP18": [
+                    14.636,
+                    -62.4685,
+                    2.847,
+                    140672.95129307482,
+                    238.76571887628342,
+                    58.47735520472236
+                ],
+                "XX_DP17": [
+                    14.7506,
+                    -62.1262,
+                    2.863,
+                    102957.03821258826,
+                    234.06481826406957,
+                    53.86411824995702
+                ],
+                "XX_DP16": [
+                    14.7567,
+                    -61.6868,
+                    2.757,
+                    69882.42209654252,
+                    211.05425502169146,
+                    30.967446840525476
+                ],
+                "XX_DP05": [
+                    14.7755,
+                    -61.5094,
+                    2.712,
+                    60240.733377006436,
+                    196.33829701718022,
+                    16.297460939845728
+                ],
+                "XX_SI15": [
+                    14.2189,
+                    -62.0015,
+                    2.946,
+                    138370.133130426,
+                    210.44091723001765,
+                    30.275451600140133
+                ],
+                "XX_DP04": [
+                    14.2495,
+                    -61.3503,
+                    2.892,
+                    116013.04530101699,
+                    179.90938991940013,
+                    359.90982344235266
+                ],
+                "XX_DP03": [
+                    13.6112,
+                    -61.5231,
+                    2.876,
+                    187542.99577768246,
+                    185.66659729903708,
+                    5.623883874647847
+                ],
+                "XX_DP14": [
+                    13.5178,
+                    -62.075,
+                    2.952,
+                    211836.05499292395,
+                    201.68701146535753,
+                    21.507088067067563
+                ],
+                "XX_SI02": [
+                    12.7701,
+                    -61.96,
+                    2.978,
+                    287292.1405323388,
+                    193.28947716676242,
+                    13.142000743896338
+                ],
+                "XX_DP01": [
+                    12.4399,
+                    -62.2695,
+                    2.953,
+                    331399.8016644281,
+                    197.52543034233597,
+                    17.305430630297685
+                ],
+                "XX_DP09": [
+                    14.9595,
+                    -60.6125,
+                    1.41,
+                    87868.31883184516,
+                    115.13373830607338,
+                    295.3267429798838
+                ],
+                "XX_DP06": [
+                    15.3295,
+                    -60.8098,
+                    1.535,
+                    58332.18988326869,
+                    86.50278487643519,
+                    266.64598335268977
+                ],
+                "XX_DP34": [
+                    16.8749,
+                    -61.4267,
+                    1.118,
+                    174682.09117804444,
+                    357.3879673305322,
+                    177.3672669288449
+                ],
+                "XX_DP24": [
+                    16.7489,
+                    -61.9876,
+                    0.812,
+                    174369.65932361942,
+                    337.1258372803909,
+                    156.95037633618963
+                ],
+                "XX_SI23": [
+                    16.2498,
+                    -62.0749,
+                    1.401,
+                    130740.21055752077,
+                    323.7642768056077,
+                    143.5677530605822
+                ],
+                "XX_DP25": [
+                    16.4866,
+                    -62.2761,
+                    1.113,
+                    164598.9132713637,
+                    323.1671173224035,
+                    142.91405227408356
+                ],
+                "XX_SI26": [
+                    16.3512,
+                    -62.419,
+                    1.076,
+                    163240.84939537937,
+                    315.6999746763498,
+                    135.4089906974441
+                ],
+                "XX_DP30": [
+                    16.8365,
+                    -62.9273,
+                    1.201,
+                    239569.09646675942,
+                    315.5019670211778,
+                    135.06591345533192
+                ],
+                "XX_DP21": [
+                    15.5554,
+                    -62.4182,
+                    2.036,
+                    117930.63841077701,
+                    284.1173752732363,
+                    103.8337519869943
+                ],
+                "XX_DP22": [
+                    15.8518,
+                    -62.1257,
+                    1.798,
+                    103158.99134011734,
+                    306.5473077897923,
+                    126.33956561594985
+                ],
+                "XX_DP27": [
+                    16.1848,
+                    -62.5888,
+                    1.836,
+                    164918.84687304517,
+                    306.6800297951944,
+                    126.3444686866416
+                ],
+                "XX_DP28": [
+                    16.0011,
+                    -62.7516,
+                    1.804,
+                    169031.8382194469,
+                    297.59228870631495,
+                    117.21471821102739
+                ],
+                "XX_DP12": [
+                    12.5316,
+                    -60.849,
+                    1.936,
+                    310859.86857181706,
+                    169.86724560761547,
+                    349.98824257547477
+                ],
+                "XX_SI11": [
+                    13.1513,
+                    -60.4908,
+                    2.32,
+                    255050.97153009806,
+                    158.52048346292247,
+                    338.7321424140499
+                ],
+                "XX_DP10": [
+                    14.3717,
+                    -60.4908,
+                    2.044,
+                    138190.04652075074,
+                    137.76300586197095,
+                    317.98351328980664
+                ],
+                "XX_DP08": [
+                    15.0581,
+                    -60.3092,
+                    3.112,
+                    115161.21567502618,
+                    103.18979816220059,
+                    283.4628311620925
+                ],
+                "XX_SI07": [
+                    15.1401,
+                    -60.0402,
+                    4.685,
+                    142018.638688711,
+                    96.8941750609756,
+                    277.2385501252309
+                ],
+                "XX_SI33": [
+                    17.775,
+                    -61.0867,
+                    5.054,
+                    275574.4775492017,
+                    5.861063261712215,
+                    185.9365924074752
+                ],
+                "XX_DP32": [
+                    17.5751,
+                    -61.2696,
+                    4.02,
+                    252145.11817316088,
+                    1.9885819514728793,
+                    182.0119019352771
+                ],
+                "XX_DP31": [
+                    17.42,
+                    -61.45,
+                    3.827,
+                    235059.15536406357,
+                    357.4606407298395,
+                    177.4330337893177
+                ]
+            },
+            "F1_X4": {
+                "XX_DP19": [
+                    15.0048,
+                    -62.2575,
+                    2.759,
+                    102583.13503975215,
+                    251.68203938276304,
+                    76.02536297288063
+                ],
+                "XX_DP18": [
+                    14.636,
+                    -62.4685,
+                    2.847,
+                    140672.95129307482,
+                    238.76571887628342,
+                    63.17735520472236
+                ],
+                "XX_DP17": [
+                    14.7506,
+                    -62.1262,
+                    2.863,
+                    102957.03821258826,
+                    234.06481826406957,
+                    59.02411824995703
+                ],
+                "XX_DP16": [
+                    14.7567,
+                    -61.6868,
+                    2.757,
+                    69882.42209654252,
+                    211.05425502169146,
+                    34.81744684052548
+                ],
+                "XX_DP05": [
+                    14.7755,
+                    -61.5094,
+                    2.712,
+                    60240.733377006436,
+                    196.33829701718022,
+                    20.137460939845727
+                ],
+                "XX_SI15": [
+                    14.2189,
+                    -62.0015,
+                    2.946,
+                    138370.133130426,
+                    210.44091723001765,
+                    32.825451600140134
+                ],
+                "XX_DP04": [
+                    14.2495,
+                    -61.3503,
+                    2.892,
+                    116013.04530101699,
+                    179.90938991940013,
+                    4.939823442352633
+                ],
+                "XX_DP03": [
+                    13.6112,
+                    -61.5231,
+                    2.876,
+                    187542.99577768246,
+                    185.66659729903708,
+                    9.643883874647846
+                ],
+                "XX_DP14": [
+                    13.5178,
+                    -62.075,
+                    2.952,
+                    211836.05499292395,
+                    201.68701146535753,
+                    25.737088067067564
+                ],
+                "XX_SI02": [
+                    12.7701,
+                    -61.96,
+                    2.978,
+                    287292.1405323388,
+                    193.28947716676242,
+                    16.832000743896337
+                ],
+                "XX_DP01": [
+                    12.4399,
+                    -62.2695,
+                    2.953,
+                    331399.8016644281,
+                    197.52543034233597,
+                    21.885430630297684
+                ],
+                "XX_DP09": [
+                    14.9595,
+                    -60.6125,
+                    1.41,
+                    87868.31883184516,
+                    115.13373830607338,
+                    302.5967429798838
+                ],
+                "XX_DP06": [
+                    15.3295,
+                    -60.8098,
+                    1.535,
+                    58332.18988326869,
+                    86.50278487643519,
+                    271.65598335268976
+                ],
+                "XX_DP34": [
+                    16.8749,
+                    -61.4267,
+                    1.118,
+                    174682.09117804444,
+                    357.3879673305322,
+                    182.6872669288449
+                ],
+                "XX_DP24": [
+                    16.7489,
+                    -61.9876,
+                    0.812,
+                    174369.65932361942,
+                    337.1258372803909,
+                    162.60037633618964
+                ],
+                "XX_SI23": [
+                    16.2498,
+                    -62.0749,
+                    1.401,
+                    130740.21055752077,
+                    323.7642768056077,
+                    147.41775306058219
+                ],
+                "XX_DP25": [
+                    16.4866,
+                    -62.2761,
+                    1.113,
+                    164598.9132713637,
+                    323.1671173224035,
+                    147.76405227408355
+                ],
+                "XX_SI26": [
+                    16.3512,
+                    -62.419,
+                    1.076,
+                    163240.84939537937,
+                    315.6999746763498,
+                    139.2889906974441
+                ],
+                "XX_DP30": [
+                    16.8365,
+                    -62.9273,
+                    1.201,
+                    239569.09646675942,
+                    315.5019670211778,
+                    140.27591345533193
+                ],
+                "XX_DP21": [
+                    15.5554,
+                    -62.4182,
+                    2.036,
+                    117930.63841077701,
+                    284.1173752732363,
+                    108.4737519869943
+                ],
+                "XX_DP22": [
+                    15.8518,
+                    -62.1257,
+                    1.798,
+                    103158.99134011734,
+                    306.5473077897923,
+                    129.78956561594984
+                ],
+                "XX_DP27": [
+                    16.1848,
+                    -62.5888,
+                    1.836,
+                    164918.84687304517,
+                    306.6800297951944,
+                    129.9644686866416
+                ],
+                "XX_DP28": [
+                    16.0011,
+                    -62.7516,
+                    1.804,
+                    169031.8382194469,
+                    297.59228870631495,
+                    120.94471821102739
+                ],
+                "XX_DP12": [
+                    12.5316,
+                    -60.849,
+                    1.936,
+                    310859.86857181706,
+                    169.86724560761547,
+                    357.00824257547475
+                ],
+                "XX_SI11": [
+                    13.1513,
+                    -60.4908,
+                    2.32,
+                    255050.97153009806,
+                    158.52048346292247,
+                    343.65214241404993
+                ],
+                "XX_DP10": [
+                    14.3717,
+                    -60.4908,
+                    2.044,
+                    138190.04652075074,
+                    137.76300586197095,
+                    323.1335132898066
+                ],
+                "XX_DP08": [
+                    15.0581,
+                    -60.3092,
+                    3.112,
+                    115161.21567502618,
+                    103.18979816220059,
+                    291.37283116209255
+                ],
+                "XX_SI07": [
+                    15.1401,
+                    -60.0402,
+                    4.685,
+                    142018.638688711,
+                    96.8941750609756,
+                    280.89855012523094
+                ],
+                "XX_SI33": [
+                    17.775,
+                    -61.0867,
+                    5.054,
+                    275574.4775492017,
+                    5.861063261712215,
+                    197.63659240747518
+                ],
+                "XX_DP32": [
+                    17.5751,
+                    -61.2696,
+                    4.02,
+                    252145.11817316088,
+                    1.9885819514728793,
+                    193.47190193527712
+                ],
+                "XX_DP31": [
+                    17.42,
+                    -61.45,
+                    3.827,
+                    235059.15536406357,
+                    357.4606407298395,
+                    183.2230337893177
+                ]
+            }
+        },
+        "CAP_ref_id": {
+            "F1_X0": {
+                "XX_DP18": 142,
+                "XX_DP04": 117,
+                "XX_DP14": 213,
+                "XX_DP21": 119,
+                "XX_DP22": 104
+            },
+            "F1_X4": {
+                "XX_DP18": 142,
+                "XX_DP04": 117,
+                "XX_DP14": 213,
+                "XX_DP21": 119,
+                "XX_DP22": 104
+            }
+        }
+    },
+    "preprocessing": {
+        "synt_onset": {
+            "perform": false,
+            "comp": [
+                "Z"
+            ],
+            "sta_lta": [
+                2.0,
+                5.0
+            ],
+            "thresh": 0.8,
+            "plot": false
+        },
+        "picker": {
+            "perform": false,
+            "filter": {
+                "ftype": "bandpass",
+                "freqmin": 1.0,
+                "freqmax": 8.0,
+                "corners": 4,
+                "zerophase": true
+            },
+            "STA-LTA": [
+                10.0,
+                100.0
+            ],
+            "threshold": [
+                4.0,
+                1.5
+            ],
+            "t_noise": 30
+        },
+        "s2n": {
+            "window": [
+                5,
+                150
+            ],
+            "s2n_min": 3.0
+        },
+        "H2V": [
+            8.0,
+            5.0
+        ],
+        "equalizer": {
+            "min_coverage": 0.5,
+            "e_max": 0.975,
+            "t_uncertainty": 0.75
+        },
+        "selection_criteria": {
+            "N_criteria": 4,
+            "stat_min": 4,
+            "trace_min": 6,
+            "perform_envelope_shift": false
+        },
+        "resampling": {
+            "sampling_rate": 1.0,
+            "window": "hanning",
+            "strict_length": false
+        },
+        "detrend": {
+            "type": "demean"
+        },
+        "taper": {
+            "type": null,
+            "max_percentage": 0.1,
+            "max_length": null,
+            "side": "left"
+        },
+        "filter": {
+            "ftype": "bandpass",
+            "freqmin": 0.055,
+            "freqmax": 0.075,
+            "corners": 4,
+            "zerophase": false,
+            "partition_type": null,
+            "fcut": [
+                0.05,
+                0.06,
+                0.07
+            ]
+        },
+        "doublet_filter": {
+            "F1": {
+                "freqmin": 0.04,
+                "freqmax": 0.07,
+                "corners": 4,
+                "zerophase": false
+            },
+            "F2": {
+                "fcut": [
+                    0.04
+                ],
+                "freqmax": 0.07
+            }
+        },
+        "phase_window": {
+            "perform": false,
+            "Taper": {
+                "type": null,
+                "max_percentage": 0.15,
+                "max_length": null,
+                "side": "both"
+            }
+        }
+    },
+    "inversion": {
+        "Cd_modus": "sampling",
+        "exp_scaling_fac": 0.0001,
+        "magnitude_update": "network",
+        "Xtree": {
+            "starting_solution_F1": [
+                180.0,
+                45.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "starting_solution_F2": [
+                180.0,
+                45.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "Xtree_range_F1": [
+                180.0,
+                45.0,
+                180.0,
+                0.0,
+                0.0
+            ],
+            "Xtree_range_F2": [
+                180.0,
+                45.0,
+                180.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "full_space_Xlayer": 3,
+            "nlay_min": 11,
+            "nlay_max": 12,
+            "top_fac": 6,
+            "half_min": 11,
+            "half_max": 12,
+            "tcrit": [
+                "NL2",
+                10,
+                0.9
+            ],
+            "multicore": true
+        },
+        "function": "Bayesian_Cd",
+        "rec_inv_procedure": "full_network",
+        "normalize": false,
+        "L2_normalize": true,
+        "envelope_portion": 0.0,
+        "bootstrap": {
+            "perform": false,
+            "modus": "trace",
+            "factor": 0.75,
+            "n": 1000
+        },
+        "time_shift": {
+            "perform": true,
+            "station_Tshift": {
+                "cweight": {
+                    "Z": 1.0,
+                    "R": 1.0,
+                    "T": 1.0
+                },
+                "dt_max_netw": 3.0,
+                "dt_max_stat": 1.0,
+                "dt_max_tr": 0.0
+            }
+        }
+    },
+    "postprocessing": {
+        "mspace_List": [
+            5,
+            2.5,
+            5,
+            2.5,
+            2.5,
+            5,
+            2.5,
+            5,
+            2.5,
+            2.5,
+            0.1,
+            2.0
+        ],
+        "cmax": 50,
+        "rem_fac": 0.1
+    },
+    "logger": {},
+    "writer": {
+        "CAP_output": null,
+        "3D_output": null
+    },
+    "plotter": {
+        "waveforms_preproc": false,
+        "picker": false,
+        "equalizer": false
+    },
+    "result": {
+        "LinInv": {},
+        "GridInv": {},
+        "TreeInv": {}
+    }
+}
