@@ -8,6 +8,12 @@ Simulation can be done using 1D and 3D synthetics:
 - fomosto by pyrocko (1D)
 - 6 elements (3D)
 
+### Example    
+This repository includes one example dataset
+of the 2016-10-18 22:08:14 M 5.6 - 14 km WSW of Pointe Michel, Dominica event.
+Open Main.ipynb and navigate through the different sub-notebook. 
+Run JSON-Creator to renew input_ev123_Example.json for your local environment.
+
 
 ### Requirements
 - Obspy 1.2.2         
