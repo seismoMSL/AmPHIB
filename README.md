@@ -23,12 +23,12 @@ Run JSON-Creator to renew input_ev123_Example.json for your local environment.
 
 
 ### AmPHIB uses selected functions of four external python codes:
-- FMC https://github.com/Jose-Alvarez/FMC                
+- FMC https://github.com/Jose-Alvarez/FMC under the licence GPL-3.0 license                 
   FMC.py was updated to return the polygon information of a coordinate.       
-- UAF Geophysics Tools https://github.com/uafgeotools/mtuq               
+- UAF Geophysics Tools https://github.com/uafgeotools/mtuq under the licence BSD-2-Clause license               
   tape2015.py is used without additional changes.             
-- MoPaD https://github.com/geophysics/MoPaD            
+- MoPaD https://github.com/geophysics/MoPaD under the licence LGPL-3.0 license             
   mopad.py was updated from py2 to py3.             
-- usgs/strec https://github.com/usgs/strec/tree/master/strec           
+- usgs/strec https://github.com/usgs/strec/tree/master/strec under the USGS licence statement                
   kagan.py is used without additional changes             
 
